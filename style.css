@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.842);
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 20px;
+    border-radius: 7px;
+}
+.txt_box{
+    line-height: 30px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.btn_find{
+    border: none;
+    border-radius: 5px;
+    width: 30px;
+    height: 27px;
+    background-color: white;
+    position: relative;
+    top: 3px;
+    left: 7px;
+}
+.btn_img{
+    width: 20px;
+}
+.containermid{
+    color: white;
+
+}
+.city{
+    padding-top: 20px;
+}
+.temp{
+    padding-top:7px ;
+}
+.clima{
+    padding-left: 10px;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+.nuvensimg{
+    width: 30px;
+    height: 30px;
+}
+.umid{
+    padding-top:10px; 
+}
+.caixa_menor{
+    display: flex;
+}
